@@ -1,0 +1,13 @@
+p {
+	background: grey;
+	font-family: cursive;
+	margin: 20px;
+	border: 2px solid black;
+
+}
+
+.row {
+	width: 100%;
+}
+
+@media 
