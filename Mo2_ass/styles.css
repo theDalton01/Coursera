@@ -2,51 +2,45 @@ h1 {
 	text-align: center;
 }
 
-h2 {
-	font-size: small;
-	text-align: left;
-	background: pink;
-	margin: 0px;
-	border: 1px solid black;
-}
-
 h3 {
-	font-size: small;
-	text-align: left;
-	margin: 0px;
-	background: darkred;
+	margin-top: 0px;
+}
+
+div {
+	background: grey;
+	margin: 10px;
 	border: 1px solid black;
+	width: 30%;
+	font-family: cursive;
+	float: left;
+	height: 150px;
+	overflow: hidden;
+}
+#h3x {
+	background: pink;
+	border: 1px solid black;
+	width: 10%;
+	position: relative;
+	right: -90%;
+	margin: 0px;
+
+}
+
+#h3y {
+	background: indianred;
+	border: 1px solid black;
+	width: 50px;
 	color: white;
-}
-
-h4 {
-	font-size: small;
-	text-align: left;
+	position: relative;
+	right: -88%;
 	margin: 0px;
-	background: darkgoldenrod;
-	border: 1px solid black;
 }
 
-#box {
-	margin: 40px;
+#h3z {
+	background: gold;
 	border: 1px solid black;
-	background: grey;
-	text-decoration-color: black; 
-	font-family: cursive;
-}
-
-.box2 {
-	margin: 40px;
-	border: 1px solid black;
-	background: grey;
-	font-family: cursive;
-
-}
-
-.box3 {
-	margin: 40px;
-	border: 1px solid black;
-	background: grey;
-	font-family: cursive;
-
+	width: 50px;
+	position: relative;
+	right: -88%;
+	margin: 0px;
 }
