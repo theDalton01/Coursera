@@ -6,16 +6,20 @@ h3 {
 	margin-top: 0px;
 }
 
-div {
+.row {
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p {
 	background: grey;
 	margin: 10px;
 	border: 1px solid black;
-	width: 30%;
 	font-family: cursive;
-	float: left;
-	height: 150px;
-	overflow: auto;
-}
+	
+	}
 #h3x {
 	background: pink;
 	border: 1px solid black;
@@ -44,3 +48,4 @@ div {
 	right: -88%;
 	margin: 0px;
 }
+
