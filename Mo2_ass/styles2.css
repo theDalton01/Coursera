@@ -1,6 +1,6 @@
 p {
 	background: grey;
-	font-family: cursive;
+	font-family: helvetica;
 	margin: 20px;
 	border: 2px solid black;
 	height: 180%;
@@ -107,8 +107,6 @@ h1 {
 
 .col-md-6 {
 	width: 50%;
-	margin-right: 25px;
-	margin-left: 25px;
 }
 
 .col-md-7 {
@@ -134,3 +132,49 @@ h1 {
 .col-md-12 {
 	width: 100%;
 }
+
+// For mobile phones //
+@media (max-width: 767px) {
+  .col-mp-1, .col-mp-2, .col-mp-3, .col-mp-4, .col-mp-5, .col-mp-6, .col-mp-7, .col-mp-8, .col-mp-9, 
+  .col-mp-10, .col-mp-11, .col-mp-12 
+  {
+    float: left;
+  }
+  
+  .col-mp-1 {
+    width: 8.33%;
+  }
+  .col-mp-2 {
+    width: 16.66%;
+  }
+  .col-mp-3 {
+    width: 25%;
+  }
+  .col-mp-4 {
+    width: 33.33%;
+  }
+  .col-mp-5 {
+    width: 41.66%;
+  }
+  .col-mp-6 {
+    width: 50%;
+  }
+  .col-mp-7 {
+    width: 58.33%;
+  }
+  .col-mp-8 {
+    width: 66.66%;
+  }
+  .col-mp-9 {
+    width: 74.99%;
+  }
+  .col-mp-10 {
+    width: 83.33%;
+  }
+  .col-mp-11 {
+    width: 91.66%;
+  }
+  .col-mp-12 {
+    width: 100%;
+    margin: auto;
+  }
